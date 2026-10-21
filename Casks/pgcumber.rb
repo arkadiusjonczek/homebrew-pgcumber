@@ -4,21 +4,21 @@ cask "pgcumber" do
 
   on_macos do
     on_arm do
-      sha256 "855bb4c8bb059bb4ff572e33bf9c8f4a4514cec351d7c453aea42d2dbc08189c"
+      sha256 "8fa52ad14bf06c1c69ce4748fc67700015689ac38fde899b29d6c0a8fce7387f"
       url "https://github.com/arkadiusjonczek/pgcumber/releases/download/#{version}/pgcumber_Darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "493534649ec85dab12a2c9e1e63f5e10ec05fbb72f73ff866b29588e80023269"
+      sha256 "b01692296e7c12feb3222d85c8688605e4154cf61f3c489631343c09272b36fb"
       url "https://github.com/arkadiusjonczek/pgcumber/releases/download/#{version}/pgcumber_Darwin_x86_64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "2fbb96ea19a7c4ac65f0ca4513f44cf637017569ea4e6eda66163acc4240a52f"
+      sha256 "3a16dba613f1e8e41943fa1c9cb0d4e20bd6ecdca98c6fb0be823b0af4443832"
       url "https://github.com/arkadiusjonczek/pgcumber/releases/download/#{version}/pgcumber_Linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "c6a3aa7c0d9f84288ba94e2529d53005f7900c1ad658d3571914e94409c5a238"
+      sha256 "9837c83f13925b623d171d10bbff54437b71ed1159be308a21f53e4c889769b9"
       url "https://github.com/arkadiusjonczek/pgcumber/releases/download/#{version}/pgcumber_Linux_x86_64.tar.gz"
     end
   end
